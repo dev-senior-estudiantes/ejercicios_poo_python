@@ -27,11 +27,23 @@ class Persona:
         print(f"Hola, soy {self.nombre} y tengo {self.edad} años.")
         
 
-persona1 = Persona("Carlos", 30)
+
+# la forma en que estaba instanciado el metodo generaba un error
+'''persona1 = Persona("Carlos", 30)
 persona2 = Persona("Ruben", 25)
 persona3 = Persona("Juan", 20)
 
 
 
 saludar = persona1.saludar()
-print(saludar)
+print(saludar)'''
+
+# Aporte de instanciamiento instaciamos el objeto persona y el metodo saludar para cada objeto
+persona1 = Persona("Carlos", 30)
+persona1.saludar()
+persona2 = Persona("Ruben", 25)
+persona2.saludar()
+persona3 = Persona("Juan", 20)
+persona3.saludar()
+persona4 = Persona("Luis", 29)
+persona4.saludar()
